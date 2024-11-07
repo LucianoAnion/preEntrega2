@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: blueviolet;
+    font-family: "Raleway-Regular", sans-serif;
+
+    .background-video {
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.main__titulo {
+    text-align: center;
+    margin-top: 30vh;
+    margin-bottom: 0vh;
+    padding: 0;
+}
+
+.main__subtitulo {
+    color: rgb(236, 53, 242);
+    font-family: "Raleway-Regular", sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+    margin-bottom: 20vh;
+    font-size: 3rem;
+    letter-spacing: 6px;
+    text-shadow: -1px -1px 0px white,
+        1px -1px 0px white,
+        -1px 1px 0px white,
+        1px 1px 0px white
+}
+
+.header__menu {
+    position: fixed;
+    top: 0px;
+    background-color: violet;
+    text-align: end;
+    width: 100%;
+    display: flex;
+}
+
+.header__categoria {
+    font-family: "Raleway-Regular", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: rgb(224, 31, 224);
+}
+
+a:active {
+    background-color: blueviolet;
+    color: yellow;
+}
+
+footer {
+    text-align: center;
+    background-color: violet;
+    margin-bottom: 0px;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.footer__redes-sociales {
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    padding-bottom: 10px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 300px;
+    height: 130px;
+    padding-left: 20px;
+}
+
+.header__menu__otros {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header__categoria__otros {
+    font-family: "Raleway-Regular", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.a__otros {
+    color: violet;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.a__otros:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.footer__otros {
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+}
+
+main {
+    margin-top: 200px;
+}
+
+.img__artistas {
+    width: 400px;
+    height: 200px;
+}
+
+.div__artistas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.resumen {
+    background-color: rgba(255, 255, 255, 0.763);
+}
+
+.productos {
+    display: grid;
+}
+
+.producto {
+    background-color: violet;
+    border-radius: 15%;
+    width: 400px;
+    height: 800px;
+    border: 10px;
+   
+}
+.img__producto{
+    width: 370px;
+    height: 670px;
+    display: relative;
+    justify-content: center;
+}

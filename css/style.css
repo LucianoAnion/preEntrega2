@@ -166,19 +166,45 @@ main {
 
 .productos {
     display: grid;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr;
+    gap: 10px;
+    grid-template-areas: "foto1 foto2 foto3"
+                        " foto4 foto5 foto6";
 }
 
 .producto {
     background-color: violet;
-    border-radius: 15%;
+    border-radius: 20px;
     width: 400px;
-    height: 800px;
+    height: 700px;
     border: 10px;
-   
+   margin-left: 30px;
 }
 .img__producto{
     width: 370px;
-    height: 670px;
-    display: relative;
+    height: 600px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 30px;
     justify-content: center;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.detalles{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.precio{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ff00ff;
+    border-radius: 5px;
+    color: blue;
+    padding: 10px;
 }

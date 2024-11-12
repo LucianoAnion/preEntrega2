@@ -130,39 +130,47 @@ footer {
     a {
         padding: 10px;
     }
-}
-    /*Inicio en movil*/
-    @media only screen and (max-width:320px){
-        .main__titulo {
-            margin-top: 50vh;
-        }
-        .main__subtitulo {
-            margin-bottom: 0;
-            font-size: 2rem;
-            width: 100vh;
-        }
-        
-        .header__menu {
-            width: 100vh;
-        }
-        
-        .header__categoria {
-            text-align: center;
-            margin: 0px;
-            font-size: 13px;
-        }
-        
-        a {
-            color: white;
-            text-decoration: none;
-            padding: 15px;
-        }
-        footer {
-            width: 100vh;
-            margin-top: 60vh;
-            height: 200px;
-        }
+
+    footer {
+        height: 15vh;
     }
+}
+
+/*Inicio en movil*/
+@media only screen and (max-width:320px) {
+    .main__titulo {
+        margin-top: 50vh;
+    }
+
+    .main__subtitulo {
+        margin-bottom: 0;
+        font-size: 2rem;
+        width: 100vh;
+    }
+
+    .header__menu {
+        width: 100vh;
+    }
+
+    .header__categoria {
+        text-align: center;
+        margin: 0px;
+        font-size: 13px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+    }
+
+    footer {
+        width: 100vh;
+        margin-top: 60vh;
+        height: 200px;
+    }
+}
+
 /*Las siguientes paginas*/
 .logo {
     width: 300px;
@@ -303,4 +311,38 @@ main {
     width: 1500px;
     margin-left: 10px;
     margin-bottom: 122px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 0;
+        height: 0;
+    }
+
+    .header__menu__otros {
+        background-color: #ff00ff;
+        margin: 0;
+        padding: 0;
+        width: 100vh;
+        justify-content: center;
+    }
+
+    .a__otros {
+        color: white;
+        padding: 5px;
+        margin: 40px;
+        border: 0;
+    }
+
+    .a__otros:hover {
+        background-color: violet;
+    }
+
+    .footer__otros {
+        text-align: center;
+        background-color: #ff00ff;
+        margin-top: 50px;
+        width: 100vh;
+        height: 25vh;
+    }
 }

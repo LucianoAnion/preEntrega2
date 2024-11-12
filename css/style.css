@@ -100,6 +100,70 @@ footer {
     margin-right: 10px;
 }
 
+/*Inicio en Tablet*/
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: white;
+
+        .background-video {
+            width: 0;
+            height: 0;
+        }
+    }
+
+    .header__menu {
+        width: 100vh;
+        text-align: center;
+    }
+
+    .header__categoria {
+        font-family: "Raleway-Regular", sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 0px;
+        font-size: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    a {
+        padding: 10px;
+    }
+}
+    /*Inicio en movil*/
+    @media only screen and (max-width:320px){
+        .main__titulo {
+            margin-top: 50vh;
+        }
+        .main__subtitulo {
+            margin-bottom: 0;
+            font-size: 2rem;
+            width: 100vh;
+        }
+        
+        .header__menu {
+            width: 100vh;
+        }
+        
+        .header__categoria {
+            text-align: center;
+            margin: 0px;
+            font-size: 13px;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+        footer {
+            width: 100vh;
+            margin-top: 60vh;
+            height: 200px;
+        }
+    }
+/*Las siguientes paginas*/
 .logo {
     width: 300px;
     height: 130px;

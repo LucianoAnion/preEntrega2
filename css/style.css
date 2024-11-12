@@ -346,3 +346,13 @@ main {
         height: 25vh;
     }
 }
+@media only screen and (max-width:320px) {
+    .header__menu__otros {
+        width: 100vh;
+        margin: 0;
+    }
+    .a_otros{
+        margin: 0px;
+        font-size: 5px;
+    }
+}
